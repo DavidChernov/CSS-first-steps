@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,*:before,*:after{
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  nav,footer,header,aside{display: block;}
+  
+  html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family: inherit;}
+  
+  ::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button ::-moz-focus-inner{padding: 0;border: 0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration:none;}
+  ul li{list-style-type: none;}
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+  /*--------------------------------------------------------------------*/
+body{
+  padding: 30px;
+}
+.block{
+    
+  background:rgb(24,181,164);
+
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #000;
+}
+.block5{
+    
+  background: url('../img/suk.jpg') center/cover no-repeat/*round*/;
+
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #000;
+}
+.block4{
+  /* Old browsers */
+  background: rgb(236,232,157);
+  /* FF3.6-15 */
+  background: -moz-linear-gradient(top, rgba(236,232,157,1) 0%, rgba(94,83,115,1) 50%, rgba(24,181,164,1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(top, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #000;
+}
+.block3{
+    
+    /* Old browsers */
+    background: rgb(236,232,157) center no-repeat local;
+    /* FF3.6-15 */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(236,232,157,1) 0%, rgba(94,83,115,1) 50%, rgba(24,181,164,1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: radial-gradient(ellipse at center, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
+  
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000;
+}
+.block2{
+  background: url('../img/text.png') center/100% auto no-repeat fixed;
+ 
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #000;
+}
+.block6{
+  background: url('../img/text.png')0 0/50px no-repeat,url('../img/duk.png')100% 100%/50px no-repeat,
+  url('../img/kuk.jpg')25% no-repeat,url('../img/suk.jpg')50%/cover no-repeat;
+
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #000;
+}
+.block7{
+  background:#1488 url('../img/suk.jpg')no-repeat 0 0/200px ;
+
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #000;
+}
